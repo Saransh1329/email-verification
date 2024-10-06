@@ -1,0 +1,17 @@
+# Initialize git and navigate to a folder where you want to store the project
+mkdir email-verification
+cd email-verification
+git init
+
+# Create the index.html file with your email ID
+echo "23f3002624@ds.study.iitm.ac.in" > index.html
+
+# Add and commit the file
+git add index.html
+git commit -m "Add index.html with email ID"
+
+# Link your local repo to GitHub
+git remote add origin https://github.com/[YOUR GITHUB ID]/email-verification.git
+
+# Push the file to GitHub
+git push -u origin main
